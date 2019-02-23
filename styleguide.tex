@@ -1,0 +1,146 @@
+\documentclass[]{article}
+\usepackage[margin=1in]{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+
+%SetFonts
+\usepackage{fontspec}
+\input{fonts.tex}  
+
+%opening
+\title{IDPro Body of Knowledge Style Guide}
+\author{Heather Flanagan, Principal Editor}
+
+\begin{document}
+
+\maketitle
+
+\begin{quotation}
+The Body of Knowledge is a compendium of curated articles, whitepapers, and resources that is destined to form the basis of a robust learning and - in time - certification program for the identity professional.
+	
+This Style Guide serves as the basis for enabling consistency in structure and format of the material in that compendium. The guidance is expected to expand over time as new material is accepted that brings new terms—and standard ways of using those terms—into the lexicon of digital identity.
+	
+Given the goal of learning and certification, articles should be treated as scholarly material, though some light humor to make the content more approachable will be appreciated by the reader. Informal, essay style articles are not suited for the BoK; please considering offering that type of material up for the IDPro Newsletter.
+\end{quotation}
+
+
+\section{Article Structure}
+\subsection{Table of Contents(ToC)}
+The ToC will exist at the top level of the BoK. Individual articles will not include them. The ToC should build automatically based on styles used within the complete BoK down to four levels (h1, h2, h3, and h4 only).
+
+\subsection{Abstract}
+The abstract should offer a concise summary of the material within the article. Readers should be able to derive enough information from the abstract to determine the article’s key points. This section is generally written at the end of the writing process.
+
+\subsection{Body of Text}
+The body of the text should be written as separable from the Abstract; duplication of material is acceptable and expected.
+
+\subsection{Introduction}
+Broader than the abstract, this section sets the context for the article
+
+\subsection{Terminology}
+This section should offer clear definitions of the key terms or concepts in the article. These terms should be italicized on first use within the body of the text.
+
+\subsection{General Content}
+As many sections as the author feels necessary to describe the topic.
+
+\subsection{Acknowledgements}
+This is an optional section that authors may use to publicly thank individuals or organizations that contributed in some way to the development of this article.
+
+\subsection{Author Bio}
+To include name, affiliation. Note that a more complete bio will be added to a consolidated bio section at the beginning of the BoK.
+
+\subsection{Endnotes}
+Follow CMOS 17 style. Will act as a reference section per article. 
+
+
+\section{Style Guidance}
+\subsection{Abbreviations and Acronyms}
+Abbreviations and acronyms listed in the table below are considered well-known in the context of the IAM community (such as IAM itself), and do not need expansion within the article; if the definition of the abbreviation is different from what is listed below, spell the abbreviation out upon first use.
+
+All other abbreviations should be spelled out upon first use or when doing so adds clarity to the text.
+
+\subsection{Capitalization}
+Use title case for all section and sub-section titles (e.g., ‘Digital Identity, ‘IAM Architecture and Solutions’).
+
+\subsection{Dates and numbers}
+Spell out numbers zero through nine; leave all other numbers as numerals.
+
+Exception: bit or byte counts to always use numerals; numbers that are part of a product or service name (e.g., ‘Cat 5’, ’10 MB’)
+
+\subsection{Document Layout and Styles}
+
+Section titles, including Appendix title: use style Heading 1.
+
+Sub-section titles: using style heading 2, 3, …,  as appropriate.
+
+Try to avoid going more than 3 nested sections deep.
+
+Sections should be numbered; appendices should be lettered.
+
+\subsection{Figures, Illustrations, Diagrams, and Photographs}
+
+Greyscale artwork (e.g., figures, illustrations, diagrams, or photographs) only. 
+
+For all artwork, include a brief caption indicating how the image fits within the text.
+
+For photographs and other artwork, make sure permissions and copyrights are clear to use the material.  For screenshots and similar output from applications such as Nagios, include a caption indicating the source of the image.
+
+Artwork should be no larger than will fit within a single A-4 page; ideally material will be scalable for mobile viewing.
+
+\subsection{Fonts and Typefaces}
+
+All final code components, code samples, and configuration examples will be published using the Noto Mono font family.
+
+Expect final publication to use the Noto Sans font family.
+
+\subsection{Footnotes and Endnotes}
+
+Use footnotes sparingly; pointers to references or other material should ideally be in the text.
+
+Each article will have an endnote for references. This will feed the bibliography for the final full BoK.
+
+\subsection{Headers and Footers}
+
+Do not use headers.
+Footers to include: short name for document, page numbers, date.
+
+\subsection{Latin Abbreviations}
+
+Correct usage of ‘e.g.’ and ‘i.e.’: ‘e.g.’ is used for specific examples; ‘i.e.’ is used in place of ‘in other words’. If used, always follow these abbreviations with a comma.
+
+\subsection{Miscellaneous}
+
+Live links should also have the full link target spelled out in a footnote.
+
+Vendor and product names should conform to the vendor’s preferred usage for capitalization and punctuation (i.e., use camelcase, all lowercase, or non-standard spelling if that is what the vendor uses for themselves or their products).
+
+\subsection{Paper Sizes}
+
+While material may also be available as a native web page, provisions should be made for printing of material.  Paper size should be set to A4.
+
+\subsection{Punctuation}
+
+Serial comma expected (use a comma before the final “and” in a series; e.g., ‘cats, rats, and dogs’).
+
+When quoting command line strings, all punctuation to go outside the quotation marks (e.g., ‘boot -e’.).
+
+\subsection{References}
+
+CMOS 17 style
+
+\subsection{Special Symbols}
+
+Use percent symbol (‘\%’) when with a number; spell out percent when with a word (e.g., ‘50\%’ versus ‘one percent’).
+
+\subsection{Spelling}
+
+Either British or American English is acceptable for general language, but IAM terminology must be uniform within the entire BoK. Pending mixed use within the document for general language, American English will be the default.
+
+\subsection{Tables, Figures, Captions}
+
+Label each table, figure, and illustration (e.g., ‘Fig. 1.’, ‘Fig. 2.’) and provide short caption.
+
+
+\end{document}
